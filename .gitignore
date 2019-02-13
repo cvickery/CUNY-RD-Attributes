@@ -1,2 +1,6 @@
 
-/queries/
+/queries/*
+
+!/queries/.gitkeep
+
+/report.txt
