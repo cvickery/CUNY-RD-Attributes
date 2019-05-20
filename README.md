@@ -18,11 +18,11 @@ Run the query `QNS_CV_CHECK_RD_ATTR`<sup>1</sup> in the Reporting Instance on _C
 
 This is a Python 3 application, so you must have Python installed. The code assumes it is in `/usr/local/bin/python3`. If it’s someplace else, either invoke the program from the commandline thusly:
 
-`**$** python3 rd-attr.py <term number>`
+`$ python3 rd-attr.py <term number>`
 
 or edit the first line of the program to give the location of your Python 3 installation. The file is then executable directly:
 
-`**$** rd-attr.py <term number>`
+`$ rd-attr.py <term number>`
 
 ## Dependency
 The program gets the catalog information for courses from a PostgreSQL database named `cuny_courses` that is part of the CUNY Transfer App project. For this project, CUNYfirst queries could be used to get the catalog and attribute information, and this program could be modified to work from the resulting spreadsheets. Alternatively, the [CUNY Courses project on GitHub](https://github.com/cvickery/cuny-courses) can be used to build a copy of the database.
